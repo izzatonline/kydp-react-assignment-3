@@ -15,7 +15,7 @@ function Clock() {
     }, [time]);
 
     function showDate() {
-        console.log(new Date().toLocaleTimeString());
+        // console.log(new Date().toLocaleTimeString());
         setTime(new Date().toLocaleTimeString());
     }
     setInterval(showDate, 1000);
